@@ -1,0 +1,65 @@
+/* 
+Name: Your Name
+Date: 03/22/2026
+File: styles.css
+Description: Main stylesheet
+*/
+
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #555;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 1em auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+}
