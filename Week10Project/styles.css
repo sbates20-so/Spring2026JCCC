@@ -1,0 +1,35 @@
+/*
+Name: Shea Bates
+Date: April 12, 2026
+Course: WEB110
+Assignment: Week 10 Project
+*/
+
+/* Table Styling */
+table {
+    border: 2px solid #222;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+/* Table Headers and Data Cells */
+th, td {
+    border: 2px solid #222;
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* Movie Title Alignment */
+.movie-title {
+    text-align: left;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(odd) {
+    background-color: #f4e1d2;
+}
+
+tr:nth-child(even) {
+    background-color: #c5dff8;
+}
